@@ -5,7 +5,7 @@ if katz_deli.length == 0
   else
 linenumber = "The line is currently:"
 katz_deli.each.with_index(1) do |name, i|
-  linenumber << " #{i}.#{name}")
+  linenumber << " #{i}.#{name}"
 end
 puts linenumber
 end
