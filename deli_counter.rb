@@ -3,11 +3,11 @@ def line(katz_deli)
 if katz_deli.length == 0 
   puts "The line is currently empty."
   else
-linenumber = "The line is currently:"
+line_number = "The line is currently:"
 katz_deli.each.with_index(1)  do |name, i|
-  linenumber << " #{i}.#{name}"
+  line_number << " #{i}. #{name}"
 end
-puts linenumber
+puts line_number
 end
 end
 
